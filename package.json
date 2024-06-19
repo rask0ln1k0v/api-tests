@@ -1,0 +1,19 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "description": "API automation tests for JSONPlaceholder API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  "test": "mocha 'test/**/*.test.js'"
+  },
+  "keywords": [],
+  "author": "Mert Ozer",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.7.2",
+    "chai": "^4.3.4",
+    "chai-http": "^5.0.0",
+    "mocha": "^10.4.0"
+  }
+}
